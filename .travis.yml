@@ -1,6 +1,6 @@
 language: python
 install: "pip install ."
-script: nosetests
+script: python setup.py nosetests --with-coverage --cover-package=workalendar
 branches:
   only:
     - master
