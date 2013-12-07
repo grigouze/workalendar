@@ -48,6 +48,8 @@ Tests
 Travis status:
 
 .. image:: https://api.travis-ci.org/novapost/workalendar.png
+.. image:: https://coveralls.io/repos/grigouze/workalendar/badge.png
+    :target: https://coveralls.io/r/grigouze/workalendar
 
 
 To run test, just install nose with ``pip install nose`` and run::
