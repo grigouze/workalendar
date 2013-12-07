@@ -4,4 +4,6 @@ script: python setup.py nosetests --with-coverage --cover-package=workalendar
 branches:
   only:
     - master
+    - coveralls
 after_script: "pip freeze"
+after_success: "coveralls"
